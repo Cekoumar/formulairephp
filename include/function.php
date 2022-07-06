@@ -40,3 +40,4 @@ function cleanXss($key)
 {
     return trim(strip_tags($_POST[$key]));
 }
+
